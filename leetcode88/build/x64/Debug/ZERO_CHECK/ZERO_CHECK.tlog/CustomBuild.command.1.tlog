@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\EXERCISE_BOOK\LEET\LEETCODE88\BUILD\CMAKEFILES\03001A856ABC39CC5DA190AC20D3DC49\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Desktop/exercise_book/Leet/leetcode88 -BC:/Users/user/Desktop/exercise_book/Leet/leetcode88/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Desktop/exercise_book/Leet/leetcode88/build/Leet88.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
